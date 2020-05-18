@@ -5,9 +5,9 @@ use ieee.numeric_std.all;
 -- declaração da entidade
 entity pulsobotao is
     port (
-		  pulso		 : in  std_logic;
-		  clock		 : in  std_logic;
-		  reset:in std_logic;
+		  pulso	     : in  std_logic;
+		  clock      : in  std_logic;
+		  reset      :in std_logic;
 		  pulsoAtivo : out std_logic
     );
 end pulsobotao;
@@ -27,6 +27,5 @@ begin
 				pulsoAtivo <= '0';
 			end if;
 	end if;
-	end process;
-	
+	end process;	
 end pulsobotao;

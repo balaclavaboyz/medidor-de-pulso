@@ -5,10 +5,10 @@ use ieee.numeric_std.all;
 -- declaração da entidade
 entity contador is
     port (
-		  reset     : in  std_logic;
-		  pulsoAtivo		: in  std_logic;
-		  clock		: in  std_logic;
-		  tempo     : out std_logic_vector(24 downto 0)
+	reset           : in  std_logic;
+	pulsoAtivo	: in  std_logic;
+	clock		: in  std_logic;
+	tempo           : out std_logic_vector(24 downto 0)
     );
 end contador;
 
@@ -22,7 +22,7 @@ begin
 	-- Se o reset estiver ativo...
 	if reset = '1' then
 		-- Então vamos limpar o IQ e depois passar o valor de IQ para o tempo (assim zerando!)
-		IQ   <= (others => '0');
+		IQ    <= (others => '0');
 		tempo <= std_logic_vector(IQ);
 		
 	
@@ -37,6 +37,5 @@ begin
 				tempo <= std_logic_vector(IQ);
 			end if;
 	end if;
-	end process;
-	
+	end process;	
 end exemplo;

@@ -4,32 +4,31 @@ use ieee.std_logic_1164.all;
 entity top is
     port (
 		
-		  pulso   : in  std_logic;		
+	pulso   : in  std_logic;		
         clock   : in  std_logic;
-		  reset   : in  std_logic;
-        tempo   : out std_logic_vector(24 downto 0)  
+	reset   : in  std_logic;
+	tempo   : out std_logic_vector(24 downto 0)  
     );
 end top;
 
 architecture exemplo of top is
 
 	component pulsobotao is
-		 port (
+		port (
 		 		
-			  pulso		 : in  std_logic;
-			  clock		 : in  std_logic;
-			  reset:in std_logic;
-			  pulsoAtivo : out std_logic
-		 );
+			pulso	   : in  std_logic;
+			clock	   : in  std_logic;
+			reset      :in std_logic;
+			pulsoAtivo : out std_logic
+		);
 	end component;
 
 	component contador is
 		 port (
-		 		
-			  reset      : in  std_logic;
-			  pulsoAtivo : in  std_logic;
-			  clock		 : in  std_logic;
-			  tempo      : out std_logic_vector(24 downto 0)						
+		 	reset      : in  std_logic;
+			pulsoAtivo : in  std_logic;
+			clock		 : in  std_logic;
+			tempo      : out std_logic_vector(24 downto 0)						
 		 );
 	end component;
 	
