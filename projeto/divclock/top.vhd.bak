@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity top is
+    port (
+        clock   : in  std_logic;									
+        clear   : in  std_logic;									
+        enable  : in  std_logic;							
+        cont    : out std_logic_vector(3 downto 0);
+		  rco		 : out std_logic
+    );
+end top;
+
+architecture exemplo of top is
+
+	component divclock is
+		 port (
+			  clock     : in  std_logic;
+			  clear		: in  std_logic;
+			  enable		: in  std_logic;
+			  clock_div : out std_logic
+		 );
+	end component;
+
+	component contador is
+		 port (
+			  clock   : in  std_logic;									
+			  clear   : in  std_logic;									
+			  enable  : in  std_logic;							
+			  Q       : out std_logic_vector(3 downto 0);		
+			  RCO     : out std_logic									
+		 );
+	end component;
+	
+	signal clkdiv: std_logic;
+begin
+
+	div: divclock port map(clock, clear, enable, clkdiv);
+	cnt: contador port map(clkdiv, clear, enable, cont, rco);
+end exemplo;

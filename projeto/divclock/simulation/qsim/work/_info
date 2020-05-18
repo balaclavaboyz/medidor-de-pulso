@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/edith2/divclock/simulation/qsim
+Edivclock
+Z1 w1589564415
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 41KVoNENnj;RUmMIITVQg1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 MmMkVfW5JWkR?lm<VcfRO1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 zWCf]NF6heG=Dhmc@B0=T2
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 _Q9E2TD5YB<<@P0[5jYTG0
+R0
+Z11 8divclock.vho
+Z12 Fdivclock.vho
+l0
+L39
+VPU`<c1PjHHUW]MSUoD1080
+!s100 4XPzTa2F4lZnRTAI4h5FM1
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1589564416
+!i10b 1
+Z15 !s108 1589564416.000000
+Z16 !s90 -work|work|divclock.vho|
+Z17 !s107 divclock.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 8 divclock 0 22 PU`<c1PjHHUW]MSUoD1080
+l293
+L48
+VnOhZCg=<V9J:^M78X3cN<0
+!s100 :=OVQWae:OGBc]47IY?8d1
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Edivclock_vhd_vec_tst
+Z20 w1589564414
+R8
+R9
+R0
+Z21 8Waveform16.vwf.vht
+Z22 FWaveform16.vwf.vht
+l0
+L32
+V`z0iLk^L6NUCzn]G8zZ^e1
+!s100 9KND2Pj?PY>XST2B]JFR21
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform16.vwf.vht|
+Z24 !s107 Waveform16.vwf.vht|
+!i113 1
+R18
+R19
+Adivclock_arch
+R8
+R9
+DEx4 work 20 divclock_vhd_vec_tst 0 22 `z0iLk^L6NUCzn]G8zZ^e1
+l49
+L34
+VX6JmL5VPJg5;SYObA@]kV1
+!s100 zOLCg4WDeIh:;BkZ:IPz=0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
+Etop
+Z25 w1589638311
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+Z26 dC:/Users/Peter/Desktop/aula/DSD/atv 6 e 7 grupo/atividade 6 e 7_peter thomas kim_ leonardo malaman_ vinicius silva/divclock/simulation/qsim
+R11
+R12
+l0
+L39
+V:G7dfFm3mU2SAEKan2M@A0
+!s100 Po:]YTE6zGM7IEoIkSTSH3
+R13
+32
+Z27 !s110 1589638312
+!i10b 1
+Z28 !s108 1589638311.000000
+R16
+R17
+!i113 1
+R18
+R19
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 3 top 0 22 :G7dfFm3mU2SAEKan2M@A0
+l294
+L48
+VAmaa0NBl5ojXlE]Z0MS9R2
+!s100 MFSGFnMK^]eQIERSER;4k0
+R13
+32
+R27
+!i10b 1
+R28
+R16
+R17
+!i113 1
+R18
+R19
+Etop_vhd_vec_tst
+Z29 w1589638310
+R8
+R9
+R26
+Z30 8Waveform3.vwf.vht
+Z31 FWaveform3.vwf.vht
+l0
+L32
+Vc7ORh82j0fL3dGC4eFm4k2
+!s100 <P>A;@11]XQbG;eP>UZgE0
+R13
+32
+R27
+!i10b 1
+Z32 !s108 1589638312.000000
+Z33 !s90 -work|work|Waveform3.vwf.vht|
+Z34 !s107 Waveform3.vwf.vht|
+!i113 1
+R18
+R19
+Atop_arch
+R8
+R9
+Z35 DEx4 work 15 top_vhd_vec_tst 0 22 c7ORh82j0fL3dGC4eFm4k2
+l49
+L34
+VMLKdOEAP@NSUOUeeTzzmi1
+!s100 P`oLhCP]9fQYFHz2UnngG3
+R13
+32
+R27
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R18
+R19

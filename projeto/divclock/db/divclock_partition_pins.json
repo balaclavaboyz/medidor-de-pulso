@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tempo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[12]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[13]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[14]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[15]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[16]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[17]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[18]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[19]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[20]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[21]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[22]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[23]",
+					"strict" : false
+				},
+				{
+					"name" : "tempo[24]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "pulso",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
